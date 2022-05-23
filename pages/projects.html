@@ -74,7 +74,13 @@
             </div>
         </div>
     </main>
-<script defer src="/app.js"></script>
+<script>
+    const navIcon = document.querySelector('.bugger-menu');
+        const navBar = document.querySelector('.nav-bar');
+        navIcon.addEventListener('click', () => {
+            navBar.classList.toggle('change');
+        });
+</script>
 </body>
 
 </html>
