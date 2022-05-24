@@ -33,7 +33,6 @@ main{
 .content{
     background-color: #1d1c18;;
     display: flex;
-    height: 100%;
     
 }
 
@@ -180,6 +179,7 @@ h1 + p{
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    height: 100%;
 }
 .advert .active{
     height: 5px;
