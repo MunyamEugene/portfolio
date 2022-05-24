@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ME</title>
     <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
 
-    <main>
+    <main class="content">
         <nav class="nav-bar">
             <div class="bugger-menu">
                 <div class="line line-1"></div>
@@ -24,9 +26,9 @@
                 <div class="line line-3"></div>
             </div>
             <ul class="main-list">
-                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/pages/about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/pages/projects.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="/portfolio/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/portfolio/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/portfolio/projects.html">Portfolio</a></li>
             </ul>
             <div class="social-media">
                 <p><span><i class="fa fa-github-square" aria-hidden="true"></i></span>GitHub</p>
@@ -36,19 +38,27 @@
         </nav>
         <div class="content">
             <div id="swup" class="content-text transition-fade">
-                <h2 class="info">ABOUT ME</h2>
-                <h1 class="info">Biography</h1>
-                <p class="info">I am front-end developer with more than 2years of experience. I am from Kigali, Rwanda.
-                    I code and I create web elements for amaizing people around the world.
-                    I like work with new people. New people are new experience.
-                
-                </p>
-                <div class="cotacts">
-                 <p class="addr"><span><i class="fa fa-map-marker" aria-hidden="true"></i> </span>Kigali,105 st</p>
-                <p class="addr"><span><i class="fa fa-phone" aria-hidden="true"></i> </span>+250789394999</p>
-                <P class="addr"><span><i class="fa fa-envelope" aria-hidden="true"></i> </span> eugenemu57@gmail.com</P>
+                <h2 class="info">PORTFOLIO</h2>
+                <div class="project-section">
+                <h1 class="info">Featured Projects</h1>
+ 
                 </div>
-                <p class="addr cv-txt">DOWNLOAD CV</p>
+                <div class="slider">
+                    <div class="project">
+                        <img src="../images/test2.jpg" width="200" height="100"/>
+                     <p>
+                         Memory Game <a href="#">More...</a>
+                     </p>
+                    </div>
+                    <div class="project">
+                        <img src="../images/test2.jpg" width="200" height="100" />
+                        <p>
+                            HTML nad CSS layout <a href="#">More...</a>
+                        </p>
+                    </div> 
+    
+                </div>
+
             </div>
             <div class="img-profile">
                 <div class="frame1">
@@ -66,13 +76,14 @@
             </div>
         </div>
     </main>
-    
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 <script>
+    const swup = new Swup();
     const navIcon = document.querySelector('.bugger-menu');
-        const navBar = document.querySelector('.nav-bar');
-        navIcon.addEventListener('click', () => {
-            navBar.classList.toggle('change');
-        });
+    const navBar = document.querySelector('.nav-bar');
+    navIcon.addEventListener('click', () => {
+        navBar.classList.toggle('change');
+    });
 </script>
 </body>
 
