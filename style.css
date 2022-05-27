@@ -48,10 +48,15 @@ body{
     border-left: 1px solid rgba(153, 151, 148, 0.884);
 }
 
+.img-profile img {
+    height: 50%;
+    width: 80%;
+    padding: 10px;
+}
 
 .img-profile .frame1 {
-    height: 430px;
-    width: 310px;
+    height: 70%;
+    width: 81%;
     position: absolute;
     border: 1px solid rgba(153, 151, 148, 0.884);
     padding: 10px;
@@ -59,8 +64,8 @@ body{
 
 .img-profile .frame2 {
     border: 1px solid rgba(153, 151, 148, 0.884);
-    height: 450px;
-    width: 290px;
+    height: 68%;
+    width: 85%;
     position: absolute;
     padding: 10px;
 
@@ -86,16 +91,20 @@ body{
 .img-profile h4 {
     color: rgb(164, 133, 97);
     font-size: 14pt;
-    padding-top: 12px;
+    padding-top: 10px;
     text-align: center;
 }
 
 .img-profile h4+p {
     color: #fff;
     font-size: 17pt;
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     
+}
+
+.HB1eCd-UMrnmb{
+    background-color: #181715;
 }
 
 

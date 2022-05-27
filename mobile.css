@@ -22,7 +22,7 @@
     width: 100%;
     padding: 10px;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 500px;
 }
 #skills .items .item1::before {
     content: '';
@@ -61,7 +61,7 @@ content: '';
 width: 100%;
 padding: 10px;
 text-align: center;
- margin-top: 300px;
+ margin-top: 500px;
 
 }
 #service .service-item {
@@ -74,7 +74,7 @@ text-align: center;
 width: 100%;
 padding: 10px;
 text-align: center;
-margin-top: 900px;
+margin-top: 1500px;
 }
 #contact form .first-input input {
     width: 100%;
