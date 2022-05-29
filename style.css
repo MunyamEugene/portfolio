@@ -418,7 +418,7 @@ padding: 2px;
 #skills .items .item3::before {
     content: '';
     position: absolute;
-    width: 80%;
+    width: 83%;
     background-color: #987750;
     height: 2px;
     bottom: 0;
@@ -427,7 +427,7 @@ padding: 2px;
 #skills .items .item4::before {
     content: '';
     position: absolute;
-    width: 75%;
+    width: 81%;
     background-color: #987750;
     height: 2px;
     bottom: 0;
@@ -540,6 +540,11 @@ margin-top: 10px;
     color: #fff;
 
 }
+.thank-you{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20pt;
+}
 #contact form textarea {
     height: 100px;
     width: 100%;
@@ -547,6 +552,7 @@ margin-top: 10px;
     color: #fff;
 
 }
+
 #contact form button{
     height: 50px;
     width: 100%;
