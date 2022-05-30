@@ -5,19 +5,20 @@
     font-family: 'Josefin Sans', sans-serif;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 body{
     background-color: #1d1b19;
     height: 100vh;
     overflow-y: scroll;
-    scroll-behavior: smooth;
     scroll-margin: 20px;
     color: #888;
 }
 
 .container{
-    scroll-behavior: smooth;
     scroll-margin: 20px;
 }
 .container::before{
@@ -662,7 +663,7 @@ width: 100%;
     flex-direction: column;
     justify-content: space-around;
 }
-.footer .back-btn a::before{
+.footer .back-btn .footer-line::before{
 position: absolute;
 content: '';
 height: 1px;
@@ -675,6 +676,13 @@ background-color: #888;
     color: #888;
     padding: 10px;
 
+}
+.back-btn a{
+    position: absolute;
+    color: #ddd;
+    left: 50%;
+    font-size: 20pt;
+    
 }
 
 

@@ -140,11 +140,15 @@ margin-top: 1500px;
     transform: scale(0.5);
 }
 
-.footer .back-btn a::before {
+.footer .back-btn .footer-line::before {
     position: absolute;
     content: '';
     height: 0px;
     width: 0%;
+}
+.back-btn a {
+    display: none;
+
 }
 
 }
