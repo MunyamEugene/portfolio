@@ -83,62 +83,9 @@ margin-top: 1500px;
     display: flex;
     flex-direction: column;
 }
-#contact form .first-input .name .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 30px;
-    margin-left: 20px;
-}
-#contact form .first-input .email .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 100px;
-    margin-left: 20px;
-}
-#contact form .email input:hover~.lable {
-    color: #987750;
-    top: 80px;
-    background-color: #1d1b19;
-    transform: scale(0.5);
-}
-#contact form .number .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 170px;
-    margin-left: 20px;
-}
-#contact form .number input:hover~.lable {
-    color: #987750;
-    top: 150px;
-    background-color: #1d1b19;
-    transform: scale(0.5);
-}
 
 
-#contact form .message .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 250px;
-    margin-left: 20px;
-}
-#contact form .message textarea:hover~.lable {
-    color: #987750;
-    top: 225px;
-    background-color: #1d1b19;
-    transform: scale(0.5);
-}
+
 
 .footer .back-btn .footer-line::before {
     position: absolute;

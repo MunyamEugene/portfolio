@@ -525,7 +525,7 @@ margin-top: 10px;
 
 #contact form div{
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #contact form input{
     height: 50px;
@@ -533,7 +533,7 @@ margin-top: 10px;
     position: relative;
     background-color: #1d1b19;
     color: #fff;
-
+    padding: 10px;
 }
 .thank-you{
     margin-top: 50px;
@@ -556,25 +556,7 @@ margin-top: 10px;
     margin-top: 20px;
     text-transform: uppercase;
 }
-#contact form .first-input input:hover ~ .lable{
-color: #987750; 
-top: 10px;  
-background-color:#1d1b19;
-transform: scale(0.5);
-}
-#contact form .number input:hover~.lable {
-    color: #987750;
-    top: 80px;
-    background-color: #1d1b19;
-    transform: scale(0.5);
-}
-#contact form  textarea:hover~.lable {
-    color: #987750;
-    top: 150px;
-    background-color: #1d1b19;
-    transform: scale(0.5);
-    
-}
+
 #contact form .first-input {
     display: flex;
     justify-content: space-around;
@@ -602,34 +584,12 @@ width: 100%;
     color: #987750;
 }
 
-#contact form .first-input .lable{
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 30px;
-    margin-left: 20px;
+::placeholder {
+    font-size: 14pt;
+    color: #ddd;
+    padding-left: 20px;
+    padding-top: 20pt;
 }
-#contact form .number .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 100px;
-    margin-left: 20px;
-}
-#contact form .message .lable {
-    position: absolute;
-    color: rgb(172, 172, 161);
-    width: auto;
-    height: auto;
-    font-size: 16pt;
-    top: 180px;
-    margin-left: 20px;
-}
-
 
 
 
@@ -668,7 +628,7 @@ background-color: #888;
 .footer .footer-content p {
     font-size: 12pt;
     color: #888;
-    padding: 10px;
+    padding: 5px;
 
 }
 .back-btn a{
